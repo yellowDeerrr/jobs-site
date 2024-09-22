@@ -1,0 +1,14 @@
+com\example\jobs\config\MvcConfig.class
+com\example\jobs\tables\UserEntity.class
+com\example\jobs\tables\Role.class
+com\example\jobs\security\CustomAuthenticationProvider.class
+com\example\jobs\security\CustomUserDetailsService.class
+com\example\jobs\payload\requests\auth\RegisterRequest.class
+com\example\jobs\security\CustomAuthenticationProvider$1.class
+com\example\jobs\controllers\auth\RegisterController.class
+com\example\jobs\security\CustomUserDetails.class
+com\example\jobs\JobsApplication.class
+com\example\jobs\services\auth\RegisterService.class
+com\example\jobs\repositories\UserRepository.class
+com\example\jobs\config\SecurityConfig.class
+com\example\jobs\repositories\RoleRepository.class

@@ -1,0 +1,13 @@
+D:\java projects\jobs\src\main\java\com\example\jobs\config\MvcConfig.java
+D:\java projects\jobs\src\main\java\com\example\jobs\config\SecurityConfig.java
+D:\java projects\jobs\src\main\java\com\example\jobs\controllers\auth\RegisterController.java
+D:\java projects\jobs\src\main\java\com\example\jobs\JobsApplication.java
+D:\java projects\jobs\src\main\java\com\example\jobs\payload\requests\auth\RegisterRequest.java
+D:\java projects\jobs\src\main\java\com\example\jobs\repositories\RoleRepository.java
+D:\java projects\jobs\src\main\java\com\example\jobs\repositories\UserRepository.java
+D:\java projects\jobs\src\main\java\com\example\jobs\security\CustomAuthenticationProvider.java
+D:\java projects\jobs\src\main\java\com\example\jobs\security\CustomUserDetails.java
+D:\java projects\jobs\src\main\java\com\example\jobs\security\CustomUserDetailsService.java
+D:\java projects\jobs\src\main\java\com\example\jobs\services\auth\RegisterService.java
+D:\java projects\jobs\src\main\java\com\example\jobs\tables\Role.java
+D:\java projects\jobs\src\main\java\com\example\jobs\tables\UserEntity.java

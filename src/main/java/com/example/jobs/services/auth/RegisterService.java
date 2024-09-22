@@ -6,6 +6,7 @@ import com.example.jobs.repositories.UserRepository;
 import com.example.jobs.tables.UserEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Collections;
@@ -17,6 +18,8 @@ public class RegisterService {
     private UserRepository userRepository;
     @Autowired
     private RoleRepository roleRepository;
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
     public boolean registerUser(RegisterRequest registerRequest) {
         String login = registerRequest.getLogin();
@@ -26,7 +29,6 @@ public class RegisterService {
         if (userRepository.findByLogin(login) != null) {
             return false;
         } else {
-            BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
             UserEntity userEntity = new UserEntity();
 
             userEntity.setLogin(login);
